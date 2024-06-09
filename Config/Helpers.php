@@ -31,17 +31,17 @@ function strClean($cadena){
 
 function cargarHeader($tipo) {
     if ($tipo == 1) {
-        include "Views/Templates/header.php";
+        include "Vistas/Templates/header.php";
     }else{
-        include "Views/Templates/header-cliente.php";
+        include "Vistas/Templates/header-cliente.php";
     }
 }
 
 function cargarFooter($tipo) {
     if ($tipo == 1) {
-        include "Views/Templates/footer.php";
+        include "Vistas/Templates/footer.php";
     }else{
-        include "Views/Templates/footer-cliente.php";
+        include "Vistas/Templates/footer-cliente.php";
     }
 }
 ?>

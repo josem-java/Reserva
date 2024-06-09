@@ -1,5 +1,5 @@
 <?php
-const base_url = "http://localhost/Proyecto_php/Renta-Car-Php8-Mvc/";
+const base_url = "http://localhost/Proyecto_php/Reservas/";
 const host = "localhost";
 const user = "root";
 const pass = "root";

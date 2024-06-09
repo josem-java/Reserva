@@ -1,8 +1,9 @@
 <?php
 class Conexion{
+
     private $conect;
-    public function __construct()
-    {
+
+    public function __construct(){
         $pdo = "mysql:host=".host.";dbname=".db.";.charset.";
         try {
             $this->conect = new PDO($pdo, user, pass);
@@ -11,10 +12,9 @@ class Conexion{
             echo "Error en la conexion".$e->getMessage();
         }
     }
-    public function conect()
-    {
+    
+    public function conect(){
         return $this->conect;
     }
 }
-
 ?>
